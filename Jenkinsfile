@@ -10,11 +10,7 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-        stage('Package') {
-            steps {
-                sh 'mvn package -DskipTest'
-            }
-        }
+        
         stage('Unit Test') {
             steps {
                 sh 'mvn test'
@@ -25,6 +21,10 @@ pipeline {
                 sh 'mvn integration-test'
             }
         }
-
+        stage('Package') {
+            steps {
+                sh 'mvn package -DskipTest'
+            }
+        }
     }
 }
