@@ -20,5 +20,9 @@ pipeline {
                 sh 'mvn test'
             }
         }
+        stage('Build') {
+            sh 'mvn build'
+        }
+
     }
 }
