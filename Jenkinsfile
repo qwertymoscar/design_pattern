@@ -20,11 +20,10 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Build') {
+        stage('Integration test') {
             steps {
-                sh 'mvn build'
+                sh 'mvn integration-test'
             }
-
         }
 
     }

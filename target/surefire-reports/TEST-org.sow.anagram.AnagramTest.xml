@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="org.sow.anagram.AnagramTest" time="0.06" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="org.sow.anagram.AnagramTest" time="0.062" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+14"/>
@@ -41,14 +41,13 @@
     <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package -DskipTest"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher integration-test"/>
     <property name="java.home" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="14.0.1"/>
     <property name="java.vendor" value="N/A"/>
-    <property name="skipTest" value="true"/>
     <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2020-04-14"/>
@@ -58,7 +57,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.sow.anagram.AnagramTest" name="should_return_true_for_two_empty_sentences" time="0.06"/>
+  <testcase classname="org.sow.anagram.AnagramTest" name="should_return_true_for_two_empty_sentences" time="0.062"/>
   <testcase classname="org.sow.anagram.AnagramTest" name="should_return_true_for_two_equal_sentences" time="0"/>
   <testcase classname="org.sow.anagram.AnagramTest" name="should_return_false_for_two_different_sentences" time="0"/>
   <testcase classname="org.sow.anagram.AnagramTest" name="should_return_true_for_two_anagrams_1" time="0"/>
