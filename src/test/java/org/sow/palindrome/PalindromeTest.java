@@ -206,7 +206,7 @@ public class PalindromeTest {
     public void should_return_false_for_an_odd_number_of_chars_sentence_with_spaces_and_mixed_case_that_is_not_a_palindrome() {
 
         // Given
-        String sentence = " A Xbc Dex Fex Dcb Xa";
+        String sentence = " A Xbc Dex Fex Dcb Xa3";
         PalindromeSolver solver = new PalindromeSolver();
 
         // When
