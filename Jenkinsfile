@@ -21,7 +21,10 @@ pipeline {
             }
         }
         stage('Build') {
-            sh 'mvn build'
+            steps {
+                sh 'mvn build'
+            }
+
         }
 
     }
