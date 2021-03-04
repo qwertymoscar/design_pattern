@@ -80,7 +80,7 @@ public class PalindromeTest {
     public void should_return_true_for_an_odd_number_of_chars_sentence_that_is_a_palindrome() {
 
         // Given
-        String sentence = "abcdefedcba";
+        String sentence = "abcdefedcba13";
         PalindromeSolver solver = new PalindromeSolver();
 
         // When
